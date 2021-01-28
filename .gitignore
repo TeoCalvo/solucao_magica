@@ -7,3 +7,5 @@ __pycache__
 *.xlsx
 *.ttf
 *.jpg
+.ipynb_checkpoints*
+.ipynb_checkpoints

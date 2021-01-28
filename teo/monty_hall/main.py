@@ -25,7 +25,7 @@ def monty_hall():
 
     return trocou, ganhou
 
-def ite_run(n = 10000):
+def ite_run(n = 1000000):
 
     trocas = []
     ganhos = []
@@ -35,7 +35,7 @@ def ite_run(n = 10000):
         trocas.append(t)
         ganhos.append(g)
     
-    return pd.DataFrame( {"trocas": trocas, "ganhos":ganhos} )
+    #return pd.DataFrame( {"trocas": trocas, "ganhos":ganhos} )
 
 
 df = ite_run()
